@@ -3,6 +3,7 @@ package com.example.EchecAndroid.PrincipalClass;
 import com.example.EchecAndroid.PrincipalClass.Coordonnees;
 import com.example.EchecAndroid.PrincipalClass.Equipe;
 
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -11,11 +12,7 @@ import java.util.List;
 public abstract class Piece {
 
     private String nom;
-    protected List<Coordonnees> Deplacement;
     private Equipe equipe;
-
-    public List<Coordonnees> getDeplacement() { return this.Deplacement;}
-    private void setDeplacement(List<Coordonnees> c) { this.Deplacement=c;}
 
     public Piece(){}
     public Piece(String n){ this.nom = n; }
@@ -27,4 +24,34 @@ public abstract class Piece {
     public Equipe getEquipe() { return this.equipe; }
     public void setEquipe(Equipe e) { this.equipe = e; }
 
+    protected List<Coordonnees> getAvailableCaseDependDirection(Echiquier e, Coordonnees piece,Coordonnees direction) {
+        List<Coordonnees> l = new LinkedList<>();
+        boolean fin = false;
+        Coordonnees currentTest = new Coordonnees(piece.getX()+direction.getX(),piece.getY()+direction.getY());
+
+        while (fin == false) {
+            if (currentTest.getX() <= 7 &&
+                    currentTest.getY() <= 7 &&
+                    currentTest.getX() <= 0 &&
+                    currentTest.getY() <= 0
+                    ) {
+                if (e.getMatrice()[currentTest.getX()][currentTest.getY()] == null)
+                {
+                    l.add(currentTest);
+                }
+                if (e.getMatrice()[currentTest.getX()][currentTest.getY()] != null &&
+                        e.getMatrice()[currentTest.getX()][currentTest.getY()].getEquipe() != this.getEquipe()) {
+                    l.add(currentTest);
+                    fin = true;
+                }
+            }
+            else
+            {
+                fin = true;
+            }
+            currentTest.setX(currentTest.getX()+direction.getX());
+            currentTest.setY(currentTest.getY()+direction.getY());
+        }
+        return l;
+    }
 }

@@ -19,6 +19,9 @@ public class Echiquier {
             {null, null, null,null,null,null,null,null}
             };
 
+    public Piece[][] getMatrice() { return this.matrice;}
+    private void setMatrice(Piece[][] m) { this.matrice = m;}
+
     private Echiquier() {
     }
 
@@ -30,28 +33,16 @@ public class Echiquier {
         return _Instance;
     }
 
-    public List<Coordonnees> deplacementsPossibles (Piece p) {
-        List<Coordonnees> deplacementsPossibles = new LinkedList<>();
+    public boolean IsInMatrice(Coordonnees c) {
+        boolean b =false;
+        if (c.getY() >= 0 &&
+                c.getY() <= Echiquier._Instance.getMatrice().length -1 &&
+                c.getX() >= 0 &&
+                c.getX() <= Echiquier._Instance.getMatrice()[0].length -1){
+            b = true;
 
-        Coordonnees indices = getIndices(p);
-
-        for (Coordonnees c : p.getDeplacement()) {
-            if (matrice[indices.y - c.getY()][indices.x-c.getX()]  == null) {
-                deplacementsPossibles.add(new Coordonnees(indices.y - c.getY(),indices.x-c.getX()));
-
-                //passer la case en bleue
-
-            }
-            if (matrice[indices.y - c.getY()][indices.x-c.getX()]  != null &&
-                    matrice[indices.y - c.getY()][indices.x-c.getX()].getEquipe() != p.getEquipe()) {
-                deplacementsPossibles.add(new Coordonnees(indices.y - c.getY(),indices.x-c.getX()));
-
-                //passer la case en rouge
-
-            }
-            //si une piece devant retirer la case possible
         }
-        return deplacementsPossibles;
+        return b;
     }
 
     public Coordonnees getIndices(Piece p) {
