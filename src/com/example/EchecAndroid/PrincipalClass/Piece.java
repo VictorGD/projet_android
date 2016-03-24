@@ -1,4 +1,7 @@
-package com.example.EchecAndroid;
+package com.example.EchecAndroid.PrincipalClass;
+
+import com.example.EchecAndroid.PrincipalClass.Coordonnees;
+import com.example.EchecAndroid.PrincipalClass.Equipe;
 
 import java.util.List;
 

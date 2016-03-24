@@ -1,4 +1,4 @@
-package com.example.EchecAndroid;
+package com.example.EchecAndroid.PrincipalClass;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -19,7 +19,8 @@ public class Echiquier {
             {null, null, null,null,null,null,null,null}
             };
 
-    private Echiquier() { }
+    private Echiquier() {
+    }
 
     public Echiquier getInstance() {
         if (_Instance == null)

@@ -1,7 +1,7 @@
-package com.example.EchecAndroid;
+package com.example.EchecAndroid.PrincipalClass;
 
-import java.util.LinkedList;
-import java.util.List;
+import com.example.EchecAndroid.PrincipalClass.Coordonnees;
+import com.example.EchecAndroid.PrincipalClass.Piece;
 
 /**
  * Created by Victor on 21/03/2016.

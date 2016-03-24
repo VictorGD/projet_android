@@ -1,4 +1,4 @@
-package com.example.EchecAndroid;
+package com.example.EchecAndroid.PrincipalClass;
 
 /**
  * Created by Victor on 21/03/2016.

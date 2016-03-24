@@ -1,7 +1,4 @@
-package com.example.EchecAndroid;
-
-import java.util.LinkedList;
-import java.util.List;
+package com.example.EchecAndroid.PrincipalClass;
 
 /**
  * Created by Victor on 21/03/2016.
