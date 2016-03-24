@@ -5,9 +5,17 @@
               android:layout_height="fill_parent"
 >
     <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
+            android:text="Prototype jeu d'échec Android"
+    />
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/echiquier"
+            android:scaleType="centerCrop"
     />
 </LinearLayout>
 
