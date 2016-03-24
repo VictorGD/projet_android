@@ -1,9 +1,9 @@
-package com.example.EchecAndroid.PrincipalClass;
+package com.example.EchecAndroid.PrincipalClass.SecondaryClass;
 
 import com.example.EchecAndroid.PrincipalClass.Piece;
 
 /**
  * Created by Victor on 21/03/2016.
  */
-public class Reine extends Piece {
+public class Tour extends Piece {
 }

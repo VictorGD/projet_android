@@ -1,4 +1,4 @@
-package com.example.EchecAndroid.PrincipalClass;
+package com.example.EchecAndroid.PrincipalClass.SecondaryClass;
 
 import com.example.EchecAndroid.PrincipalClass.Piece;
 

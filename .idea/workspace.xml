@@ -10,39 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfaec88f-19f7-4b5c-931e-0c4f88b37d32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Cavalier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Fou.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Pion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Reine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Tour.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/ViewClass/EchiquierView.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Cavalier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Coordonnees.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Echiquier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Equipe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Fou.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/MyActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Piece.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Pion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Reine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Roi.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/Tour.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Projet/com/example/EchecAndroid/color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Cavalier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Fou.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Pion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Reine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Tour.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Coordonnees.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Coordonnees.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Echiquier.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Echiquier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Equipe.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Equipe.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/MyActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Piece.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Piece.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/Roi.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Roi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/Projet.apk" afterPath="$PROJECT_DIR$/out/production/Projet/Projet.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/Projet.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/Projet/Projet.unaligned.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Cavalier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Fou.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Cavalier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Fou.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Pion.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Pion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Reine.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Reine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Roi.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Roi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Tour.java" afterPath="$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Tour.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
     </list>
     <ignored path="EchecAndroid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +51,7 @@
         </entry>
       </file>
       <file leaf-file-name="Roi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Roi.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Roi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
@@ -619,7 +595,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -635,7 +611,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36065573" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17604166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17604166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -703,7 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Roi.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Roi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
@@ -724,7 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Fou.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Fou.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
@@ -732,7 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Cavalier.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Cavalier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
@@ -740,7 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Tour.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Tour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
@@ -748,7 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Pion.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Pion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
@@ -805,7 +781,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Roi.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Roi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -815,7 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Reine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Reine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
@@ -823,7 +799,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Fou.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Fou.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
@@ -831,7 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Cavalier.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Cavalier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
@@ -839,7 +815,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Tour.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Tour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
@@ -847,7 +823,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Pion.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Pion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
@@ -869,7 +845,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Reine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Reine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
@@ -877,7 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Pion.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Pion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
@@ -885,7 +861,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Tour.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Tour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
@@ -893,7 +869,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Cavalier.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Cavalier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
@@ -901,7 +877,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Fou.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Fou.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
@@ -917,7 +893,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/Roi.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/EchecAndroid/PrincipalClass/SecondaryClass/Roi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
