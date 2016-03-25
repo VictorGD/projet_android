@@ -8,6 +8,7 @@ import java.util.List;
 
 /**
  * Created by Victor on 21/03/2016.
+ * Classe mère de toute les pièces
  */
 public abstract class Piece {
 
@@ -24,6 +25,8 @@ public abstract class Piece {
     public Equipe getEquipe() { return this.equipe; }
     public void setEquipe(Equipe e) { this.equipe = e; }
 
+    //Retourne toutes les cases libres jusqu'à rencontrer un obstacle dans une direction
+    //Prend en paramètre une direction sous la forme d'une coordonnée en facteur (ex : Nord => (0,1)
     protected List<Coordonnees> getAvailableCaseDependDirection(Echiquier e, Coordonnees direction) {
         List<Coordonnees> l = new LinkedList<>();
         boolean fin = false;
@@ -54,7 +57,10 @@ public abstract class Piece {
         return l;
     }
 
-    public List<Coordonnees> getPossibleMovement() {
+    //Fonction qui prend en paramètre l'échiquier, la pièce renverra une liste des coordonnées qui correspond
+    //aux cases sur lesquelles elle peut se déplacer
+    //Fonction implémentée différement pour chaque classe fille
+    public List<Coordonnees> getPossibleMovement(Echiquier e) {
         return new LinkedList<>();
     }
 }

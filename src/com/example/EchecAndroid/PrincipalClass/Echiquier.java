@@ -5,9 +5,14 @@ import java.util.List;
 
 /**
  * Created by Victor on 21/03/2016.
+ * Classe réprésentant l'échiquier
  */
 public class Echiquier {
+
+    // Instance unique de l'echiquier
     private static Echiquier _Instance = null;
+
+    // Matrice de définition des cases
     private Piece matrice [][]= {
             {null, null, null,null,null,null,null,null},
             {null, null, null,null,null,null,null,null},
@@ -25,6 +30,7 @@ public class Echiquier {
     private Echiquier() {
     }
 
+    // Design Pattern Singleton : Retourne l'instance de l'échiquier
     public static Echiquier getInstance() {
         if (_Instance == null)
         {
