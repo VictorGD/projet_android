@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class Cavalier extends Piece {
 
-    public List<Coordonnees> deplacementsPossibles(Echiquier e) {
+    public List<Coordonnees> getPossibleMovement(Echiquier e) {
         List<Coordonnees> l = new LinkedList<>();
 
         l.add(new Coordonnees(e.getIndices(this).getX()-2,e.getIndices(this).getY()+1));

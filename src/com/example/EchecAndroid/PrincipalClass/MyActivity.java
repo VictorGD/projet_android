@@ -2,6 +2,7 @@ package com.example.EchecAndroid.PrincipalClass;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.example.EchecAndroid.PrincipalClass.SecondaryClass.Roi;
 import com.example.EchecAndroid.R;
 
 public class MyActivity extends Activity {

@@ -24,11 +24,10 @@ public abstract class Piece {
     public Equipe getEquipe() { return this.equipe; }
     public void setEquipe(Equipe e) { this.equipe = e; }
 
-    protected List<Coordonnees> getAvailableCaseDependDirection(Echiquier e, Coordonnees piece,Coordonnees direction) {
+    protected List<Coordonnees> getAvailableCaseDependDirection(Echiquier e, Coordonnees direction) {
         List<Coordonnees> l = new LinkedList<>();
         boolean fin = false;
-        Coordonnees currentTest = new Coordonnees(piece.getX()+direction.getX(),piece.getY()+direction.getY());
-
+        Coordonnees currentTest = new Coordonnees(e.getIndices(this).getX()+direction.getX(),e.getIndices(this).getY()+direction.getY());
         while (fin == false) {
             if (currentTest.getX() <= 7 &&
                     currentTest.getY() <= 7 &&
@@ -53,5 +52,9 @@ public abstract class Piece {
             currentTest.setY(currentTest.getY()+direction.getY());
         }
         return l;
+    }
+
+    public List<Coordonnees> getPossibleMovement() {
+        return new LinkedList<>();
     }
 }

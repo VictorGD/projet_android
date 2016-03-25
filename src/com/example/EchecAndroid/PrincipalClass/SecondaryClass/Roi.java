@@ -16,7 +16,7 @@ public class Roi extends Piece {
 
     }
 
-    public List<Coordonnees> deplacementsPossibles(Echiquier e) {
+    public List<Coordonnees> getPossibleMovement(Echiquier e) {
         List<Coordonnees> l = new LinkedList<>();
 
         l.add(new Coordonnees(e.getIndices(this).getX()-1,e.getIndices(this).getY()+1));

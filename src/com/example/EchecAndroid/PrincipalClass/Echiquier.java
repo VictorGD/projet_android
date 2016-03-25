@@ -7,7 +7,7 @@ import java.util.List;
  * Created by Victor on 21/03/2016.
  */
 public class Echiquier {
-    static private Echiquier _Instance = null;
+    private static Echiquier _Instance = null;
     private Piece matrice [][]= {
             {null, null, null,null,null,null,null,null},
             {null, null, null,null,null,null,null,null},
@@ -25,7 +25,7 @@ public class Echiquier {
     private Echiquier() {
     }
 
-    public Echiquier getInstance() {
+    public static Echiquier getInstance() {
         if (_Instance == null)
         {
             _Instance = new Echiquier();
